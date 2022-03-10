@@ -1,0 +1,258 @@
+@font-face {
+    font-family: "FuturaPTHeavy";
+    src: url("fonts/FuturaPTHeavy.otf");
+}
+
+@font-face {
+    font-family: "vcr_osd_monoregular";
+    src: url("fonts/vcr_osd_monoregular.ttf");
+}
+
+@font-face {
+    font-family: "Microgamma";
+    src: url("fonts/Microgamma.otf");
+}
+
+@font-face {
+    font-family: "Segoe";
+    src: url("fonts/SegoeUI.ttf");
+}
+
+body {
+  background-image: url('images/backgrounds/shadedblack.jpg');
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+td {
+  padding: 12px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: 'Microgamma', Times, serif;
+  font-size: 30px;
+}
+
+h2 {
+  text-align:center;
+  color: white;
+  font-family: 'Microgamma', Times, serif;
+  font-size: 40px;
+  padding:25px;
+}
+
+h3 {
+  text-align: center;
+  color: black;
+  font-family: 'Microgamma', Times, serif;
+  font-size: 40px;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+iframe {
+  border: none;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.gapImage {
+  margin-bottom: 40px;
+}
+
+.gapButton {
+  margin-bottom: 20px;
+}
+
+.futura {
+  text-align: center;
+  color: white;
+  font-family: 'FuturaPTHeavy', Times, serif;
+  font-size: 25px;
+}
+
+.Header {
+  text-align: center;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.yellowHeader {
+  text-align: center;
+  width: 100%;
+  background-image: url('images/backgrounds/brickyellow.jpg');
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.skyHeader {
+  text-align: center;
+  width: 100%;
+  background-image: url('images/backgrounds/LivefromOutsideBG.png');
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.redHeader {
+  text-align: center;
+  width: 100%;
+  background-image: url('images/backgrounds/lvlcnrnRed.png');
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.blueHeader {
+  text-align: center;
+  width: 100%;
+  background-image: url('images/backgrounds/brickblue.png');
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.brickHeader {
+  text-align: center;
+  width: 100%;
+  background-image: url('images/backgrounds/brickred.png');
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.maroonHeader {
+  text-align: center;
+  width: 100%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, 100% 100%;
+  background-image: url('images/backgrounds/locrepeat.png'), url('images/backgrounds/woodbackground.jpg');
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.resourceBackground {
+  background-image: url('images/backgrounds/banner.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.resources {
+  padding: 20px;
+  text-align: center;
+}
+
+.rowedImage {
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 75px;
+  width: auto;
+}
+
+/* background button code */
+  .container {
+      position: relative;
+      width: 100%;
+      max-width: 350px;
+  }
+
+  .container img {
+      width: 100%;
+      height: auto;
+  }
+
+  .container .btn {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      background-color: inherit;
+      cursor:pointer;
+      overflow: hidden;
+      font-size: 16px;
+      padding: 16px 30px;
+      outline: none;
+      border: none;
+      text-align: center;
+      font-family: 'vcr_osd_monoregular';
+      font-style: normal;
+      font-weight: 400;
+      color: #010100;
+  }
+
+  .container .btn:hover {
+      color: white;
+  }
+/* background button code */
+
+/* Style the links inside the sidenav */
+  #mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    right: -80px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 5px 0px 0px 5px; /* Rounded corners on the top right and bottom right side */
+  }
+
+  #mySidenav a:hover {
+    right: 0; /* On mouse-over, make the elements appear as they should */
+  }
+
+  /* The about link: 20px from the top with a green background */
+  #home {
+    top: 20px;
+    background-image: url('images/backgrounds/brickyellow.jpg');
+  }
+
+  #loc {
+    top: 80px;
+    background-image: url('images/backgrounds/LiveLowDef.png');
+  }
+
+  #josh {
+    top: 140px;
+    background-image: url('images/backgrounds/brickblue.png');
+  }
+
+  #tyler {
+    top: 200px;
+    background-image: url('images/backgrounds/brickred.png');
+  }
+/* STYLE FOR SIDE NAV */
+
+#nametyler {
+  color: black;
+  font-family: 'Segoe', sans-serif;
+  font-size: 23px;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 23px;
+  left: 71px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
